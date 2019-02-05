@@ -30,6 +30,9 @@
  *	recenter dialog - ajax loaded content
  */
 
+(function( $ ) {
+	'use strict';
+
 // add new options with default values
 $.ui.dialog.prototype.options.clickOut = true;
 $.ui.dialog.prototype.options.responsive = true;
@@ -189,3 +192,6 @@ $.ui.dialog.prototype.close = function () {
     }
 };
 //end close
+
+})( jQuery );
+
